@@ -16,6 +16,10 @@ class Veiculo():
         self.__cor = cor
         print("O veículo está com a cor", self.__cor)
 
+    @property
+    def cor(self):
+        return self.__cor
+
     def abastecer(self, qtd_combustivel):
         """O método abastecer recebe como parâmetro a quantidade de combustível e incrementa no atributo qtd_combustivel do objeto carro"""
         self._qtd_combustivel += qtd_combustivel

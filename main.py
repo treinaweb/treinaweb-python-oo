@@ -6,6 +6,7 @@ uno_vermelho.abastecer(50)
 uno_vermelho.abastecer(10)
 uno_vermelho.acelerar(20)
 uno_vermelho.pintar("Azul")
+print(uno_vermelho.cor)
 print(f"A quantidade de combustível do carro é: ")
 
 moto_vermelha = moto.Moto("Vermelha", "Gasolina", 1.0, 2)
