@@ -2,6 +2,7 @@ import carro, moto
 
 uno_vermelho = carro.Carro("vermelho", 4, "Flex", 1.0, 4)
 uno_vermelho.ligar()
+print(uno_vermelho._libras)
 uno_vermelho.abastecer(50)
 uno_vermelho.abastecer(10)
 uno_vermelho.acelerar(20)

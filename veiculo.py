@@ -7,6 +7,7 @@ class Veiculo():
 		self.__qtd_combustivel = 0
 		self.__is_ligado = False
 		self.__velocidade = 0
+		self._libras = 0
 
 	def __del__(self):
 		print("O objeto foi removido da memória. :)")
