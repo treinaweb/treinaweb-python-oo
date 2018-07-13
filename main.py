@@ -8,5 +8,7 @@ print(f"A quantidade de combustível do carro é: {uno_vermelho.qtd_combustivel}
 
 moto_vermelha = moto.Moto("Vermelha", "Gasolina", 1.0, 2)
 moto_vermelha.ligar()
+moto_vermelha.abastecer(30)
+moto_vermelha.abastecer(10)
 print(moto_vermelha.is_ligado)
 
