@@ -1,9 +1,11 @@
-import math
-import cmath
+import carro
 
-print(math.pow(2, 2))
-print(math.factorial(2))
-print(math.log(4, 2))
-print(math.cos(180))
+uno_vermelho = carro.Carro("vermelho", 4, "Flex", 1.0, 0, False)
+uno_vermelho.ligar()
+uno_vermelho.abastecer()
+uno_vermelho.abastecer()
+print(f"A quantidade de combustível do carro é: {uno_vermelho.qtd_combustivel}")
 
-print(cmath.log(2, 10))
+uno_preto = carro.Carro("preto", 2, "Flex", 1.4, 0, False)
+uno_preto.desligar()
+print(f"A quantidade de combustível do carro é: {uno_preto.qtd_combustivel}")
