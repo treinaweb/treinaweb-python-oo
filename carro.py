@@ -1,4 +1,5 @@
 class Carro():
+	"""Essa é a classe carro. Esta classe é utilizada para instanciar novos carros em nosso programa"""
 	def __init__(self, cor, qtd_portas, tipo_combustivel, potencia, qtd_combustivel, is_ligado, velocidade):
 		self.cor = cor
 		self.qtd_portas = qtd_portas
@@ -9,6 +10,7 @@ class Carro():
 		self.velocidade = velocidade
 
 	def abastecer(self, qtd_combustivel):
+		"""O método abastecer recebe como parâmetro a quantidade de combustível e incrementa no atributo qtd_combustivel do objeto carro"""
 		self.qtd_combustivel += qtd_combustivel
 
 	def ligar(self);
