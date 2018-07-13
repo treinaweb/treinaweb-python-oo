@@ -7,6 +7,7 @@ uno_vermelho.ligar()
 uno_vermelho.abastecer(50)
 uno_vermelho.abastecer(10)
 print(f"A quantidade de combustível do carro é: {uno_vermelho.qtd_combustivel}")
+del uno_vermelho
 
 uno_preto = carro.Carro("preto", 2, "Flex", 1.4)
 uno_preto.desligar()
