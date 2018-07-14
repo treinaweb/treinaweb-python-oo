@@ -1,4 +1,4 @@
-import carro, moto
+import carro, moto, veiculo
 
 uno_vermelho = carro.Carro("vermelho", "Flex", 1.0, 4)
 uno_vermelho.ligar()
@@ -14,3 +14,7 @@ moto_vermelha.ligar()
 moto_vermelha.abastecer(30)
 moto_vermelha.abastecer(10)
 
+if isinstance(moto, veiculo.Veiculo):
+    print("A classe é um veículo")
+else:
+    print("A classe não é um veículo")
