@@ -1,6 +1,6 @@
 import abc
 
-class Veiculo():
+class Veiculo(abc.ABC):
     """Essa é a classe carro. Esta classe é utilizada para instanciar novos carros em nosso programa"""
 
     def __init__(self, cor, tipo_combustivel, potencia):

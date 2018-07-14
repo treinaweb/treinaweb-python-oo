@@ -12,3 +12,9 @@ class Moto(veiculo.Veiculo):
             print("A moto está cheia")
         else:
             self._qtd_combustivel += qtd_combustivel
+
+    def pintar(self, cor):
+        if cor == "azul":
+            print("a moto não pode ser azul")
+        else:
+            self._cor = cor
