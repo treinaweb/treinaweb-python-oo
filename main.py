@@ -13,8 +13,3 @@ moto_vermelha = moto.Moto("Vermelha", "Gasolina", 1.0, 2)
 moto_vermelha.ligar()
 moto_vermelha.abastecer(30)
 moto_vermelha.abastecer(10)
-
-if isinstance(moto, veiculo.Veiculo):
-    print("A classe é um veículo")
-else:
-    print("A classe não é um veículo")
